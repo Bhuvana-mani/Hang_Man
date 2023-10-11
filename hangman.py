@@ -1,5 +1,5 @@
 import random
-from hangman_wrong_steps import steps
+from hangman_ani import steps
 from words import words
 
 def get_valid_words(words):
@@ -68,3 +68,6 @@ while True:
         print("Congratulations!!! You have won the Game")
         print("I picked", picked)
         break
+
+
+    
